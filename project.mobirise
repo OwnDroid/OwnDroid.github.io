@@ -70,7 +70,7 @@
             "showText": true,
             "countdown": "2017/04/30",
             "showCountdown": true,
-            "showForm": true,
+            "showForm": false,
             "showArrow": false
           },
           "media": {
@@ -99,7 +99,7 @@
           },
           "title": "",
           "title2": "Respawn in...",
-          "text": "If you own a Nexus 6p (a.k.a. Angler) press the RED button below to get notified!!!",
+          "text": "",
           "form": {
             "action": "owndroid26@gmail.com",
             "alerts": {
