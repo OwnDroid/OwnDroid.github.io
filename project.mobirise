@@ -53,7 +53,7 @@
             "animText2": "YOUR",
             "animText3": "DROID",
             "typeSpeed": "100",
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
             "bgColor": "#2e2e2e",
@@ -63,7 +63,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.6,
+            "overlayOpacity": "0.7",
             "overlayColor": "#000",
             "showLogo": true,
             "showTitle": true,
@@ -71,7 +71,7 @@
             "countdown": "2017/04/30",
             "showCountdown": true,
             "showForm": true,
-            "showArrow": true
+            "showArrow": false
           },
           "media": {
             "image": {
