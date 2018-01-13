@@ -19,15 +19,18 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "favicon": "@PROJECT_PATH@/assets/images/default-128x128.png",
     "noImageResize": "",
     "google-analytics": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 2,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 3,
+    "versionPublish": "4.5.4",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -41,78 +44,90 @@
       },
       "components": [
         {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "inverse": false,
+            "showArrow": false,
+            "showIcons": false,
+            "formBorder": false,
+            "formColor": "#595959",
+            "formStyle": "light",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/b6tivp9-1920x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.5"
+          },
+          "title1": "Something good for Android will appear soon!!!",
+          "title2": "OwnDroid is all about Owning your Droid!!",
+          "title3": "In search of:",
+          "text1": "Comunity driven complete Android Website with: Root instructions, ROM reviews, apps, mods, walls etc!!!",
+          "text2": "Reviewers, Tutorial writers, wallpaper artist, root experts etc...<br>Think you can help? Fill out the form!<br><br><br><br><br>Be Sure to check back, there will be a lot to discuss!!!",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send!</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "layers",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "expand",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            }
+          },
+          "form": {
+            "action": "mhrvisser21@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone*"
+              },
+              "message": {
+                "visible": true,
+                "title": "Message",
+                "customTitle": "Discribe what you can do best and help us with!!"
+              }
+            }
+          },
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extHeader15",
-          "_anchor": "extHeader15-1",
-          "_params": {
-            "imageSize": 20,
-            "animText1": "OWN",
-            "animText2": "YOUR",
-            "animText3": "DROID!!!",
-            "typeSpeed": "100",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#000",
-            "showLogo": true,
-            "showTitle": true,
-            "showText": true,
-            "countdown": "2017/04/30",
-            "showCountdown": true,
-            "showForm": false,
-            "showArrow": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/inverted-1400x1400.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "pencil",
-              "size": 0,
-              "color": "#ffffff",
-              "family": "et-line"
-            }
-          },
-          "title": "",
-          "title2": "Respawn in...",
-          "text": "",
-          "form": {
-            "action": "owndroid26@gmail.com",
-            "alerts": {
-              "success": "Own Your Droid"
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Enter Your Email To Get Notified!"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>"
+          "_name": "extHeader4",
+          "_anchor": "extHeader4-2"
         }
       ]
     }
