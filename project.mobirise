@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OwnROM",
-    "currentPage": "index.html",
+    "currentPage": "Contact.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -238,9 +238,9 @@
         }
       ]
     },
-    "page1.html": {
+    "Contact.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "Get in contact with OwnDroid, to send in or ask anything.",
         "title": "Contact",
         "order": 1
       },
