@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OwnROM",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,7 +21,8 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#5e97f6"
+        "#5e97f6",
+        "#ababab"
       ]
     },
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x99.png",
@@ -29,7 +30,7 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112465163-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112465163-1');\r\n</script>\r\n",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 14,
     "versionPublish": "4.5.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -137,37 +138,27 @@
         },
         {
           "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/header1-2000x1250.png",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "IMAGE SLIDE",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "<br><br><br><br><br><br><br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> ",
-                "overlayOpacity": "0.2"
-              }
-            ]
+            "showText": false
           },
-          "articleLayout": false,
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/header1-2000x1250.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider",
-          "_anchor": "slider-5"
+          "_name": "image1",
+          "_anchor": "image1-d"
         },
         {
           "_styles": {
@@ -195,12 +186,55 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>Welcome to the universe of <b>Own</b>Droid! Some of you might still know me/us from our beloved custom ROM <b>Own</b>ROM, while this project was fun to do, I simply don't have the time anymore to build and maintain this ROM. I know many of you might find this a disapointmend but I still want to do something for the comunity in a good way!</p><p><br></p><p>The idea of this website is to gather everyone, every android device, every app, mod, root method, wallpaper out there and make this website the place to find it, to find your tutorial on how to root your device, or how to install that ROM or mod you disire. This must also be your one stop website where you can send in your own reviews, mods, apps, walls and etc. Because everybody knows his/her device best and can help us. Want to ask something? Go ahead! I'll keep a eye out on everybody so that only gentle and polite answers will find its way to this website!!</p><p><br></p><p>If you want to help me/us out with a review, toturial on anything, or send in a own developed app, mod or designed wall just head over to the contact page and I will place this on the website with the right credentials for sure!! Help me make the most complete, comunity driven and noob friendly Android website out there!!!</p></blockquote>",
+          "text": "<blockquote><p>Welcome to the universe of <b>Own</b>Droid! Some of you might still know me/us from our beloved custom ROM <b>Own</b>ROM, while this project was fun to do, I simply don't have the time anymore to build and maintain this ROM. I know many of you might find this a disapointmend but I still want to do something for the comunity in a good way! Read More --&gt;</p></blockquote>",
           "_tags": [
             "Theme"
           ],
           "_name": "content2",
           "_anchor": "content2-7"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "android",
+              "family": "socicon",
+              "link": "",
+              "size": 0,
+              "color": "#5e97f6",
+              "active": true
+            }
+          },
+          "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
+          "text2": "<strong>Quick Links</strong><br><br>",
+          "text3": "<strong>.</strong><br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-c",
+          "_styles": {
+            "STRONG": {
+              "color": "#ababab"
+            }
+          }
         }
       ]
     },

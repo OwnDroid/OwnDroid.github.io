@@ -762,6 +762,9 @@ h6,
 #header3-6 .mbr-section-subtitle {
   text-align: center;
 }
+#contacts1-c STRONG {
+  color: #ababab;
+}
 #menu-8 .hide-buttons .nav-btn {
   display: none !important;
 }
