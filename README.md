@@ -1,5 +1,5 @@
 # owndroid.github.io
-OwnDroid website | http://owndroid.github.io
+OwnDroid website | https://owndroid.github.io
 
 This Website is Open Source, meaning:
 
