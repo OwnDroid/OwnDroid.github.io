@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OwnROM",
-    "currentPage": "index.html",
+    "currentPage": "Contact.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -25,7 +25,7 @@
         "#ababab"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/logo-blue-128x92_1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-128x99.png",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112465163-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112465163-1');\r\n</script>\r\n",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
@@ -221,6 +221,7 @@
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-blue-128x92.png",
               "width": 128,
+              "active": true,
               "link": "",
               "alt": "",
               "title": ""
@@ -232,8 +233,7 @@
               "family": "socicon",
               "link": "",
               "size": 0,
-              "color": "#5e97f6",
-              "active": true
+              "color": "#5e97f6"
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
@@ -608,6 +608,7 @@
             "image": {
               "src": "@PROJECT_PATH@/assets/images/logo-blue-128x92.png",
               "width": 128,
+              "active": true,
               "link": "",
               "alt": "",
               "title": ""
@@ -619,8 +620,7 @@
               "family": "socicon",
               "link": "",
               "size": 0,
-              "color": "#5e97f6",
-              "active": true
+              "color": "#5e97f6"
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
