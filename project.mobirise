@@ -30,7 +30,7 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112465163-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112465163-1');\r\n</script>\r\n",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 23,
+    "uniqCompNum": 28,
     "versionPublish": "4.5.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -138,38 +138,37 @@
         },
         {
           "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": false,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/header1-2000x1250.png",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "IMAGE SLIDE",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - intros with forms, counters, countdowns, accordions, tabs, iconboxes, progress bars, testimonials sliders and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.3"
-              }
-            ]
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "animText1": "MOBILE-FRIENDLY",
+            "animText2": "AWESOME",
+            "animText3": "EASY-TO-USE",
+            "typeSpeed": 60,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header1-2000x1250.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.3"
           },
-          "articleLayout": false,
+          "title": "MOBIRISE IS ",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extSlider1",
-          "_anchor": "extSlider1-m"
+          "_name": "extMsg-box2",
+          "_anchor": "extMsg-box2-r"
         },
         {
           "_styles": {
@@ -197,7 +196,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p>Welcome to the universe of <b>Own</b>Droid! Some of you might still know me/us from our beloved custom ROM <b>Own</b>ROM, while this project was fun to do, I simply don't have the time anymore to build and maintain this ROM. I know many of you might find this a disapointmend but I still want to do something for the comunity in a good way! Read More --&gt;</p></blockquote>",
+          "text": "<blockquote><p>Welcome to the universe of <b>Own</b>Droid! Some of you might still know me/us from our beloved custom ROM <b>Own</b>ROM, while this project was fun to do, I simply don't have the time anymore to build and maintain this ROM. I know many of you might find this a disapointmend but I still want to do something for the comunity in a good way! <a href=\"who-we-are.html\">Read More --&gt;</a></p></blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -263,7 +262,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 OwnDroid - OpenSource Website. Want to contribute or use the files? Go <a href=\"https://github.com/OwnDroid/OwnDroid.github.io\">HERE</a>",
+          "text": "Copyright (c) 2018 OwnDroid - OpenSource Website. Want to contribute or use the files? Go <a href=\"https://github.com/OwnDroid/OwnDroid.github.io\" target=\"_blank\">HERE</a>",
           "_tags": [
             "Theme"
           ],
@@ -448,7 +447,18 @@
             "Extension"
           ],
           "_name": "extHeader4",
-          "_anchor": "extHeader4-9"
+          "_anchor": "extHeader4-9",
+          "_styles": {
+            "H2": {
+              "text-align": "center"
+            },
+            ".intro-box h4": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
         }
       ]
     },
@@ -584,12 +594,107 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "text": "<p>Welcome to the universe of OwnDroid! Some of you might still know me/us from our beloved custom ROM OwnROM, while this project was fun to do, I simply don't have the time anymore to build and maintain this ROM. I know many of you might find this a disapointmend but I still want to do something for the comunity in a good way and bringing Android to a whole new level.&nbsp;</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-j"
+          "_anchor": "content1-j",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>OwnROM was a comunity build ROM where users could decide with us what features to use in the ROM itself and what not, with user friendly Developers who even accept ETA questions. This will be the main idea to continue in this website. A <b>comunity driven </b>website with only <b>friendly advices </b>from experienced users. I will keep a strict eye out on this and will reward everybody who lives by this rule! So don't be affraid to ask anything you like to know!</p><p><br></p><p>The main goal for us is to create not only a noob friendly website, but also your one stop website to find everything you need to know ar want to have, such as apps, mods, custom ROMs, reviews about them and wallpapers.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-o",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "title": "But it doesn't stop there...",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-p"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Did you made your own ROM, mod, app, wall or review? Please feel free get in touch with me troug the <a href=\"Contact.html\">CONTACT </a>Page... I'm giving everybody who thinks they have something to contribute a stage to get it out there! So do you have something to share? Bring it on!</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-q",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-1280x720.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ARTICLE HEADER",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-n"
         },
         {
           "_params": {
@@ -651,7 +756,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018 OwnDroid - OpenSource Website. Want to contribute or use the files? Go <a href=\"https://github.com/OwnDroid/OwnDroid.github.io\">HERE</a>",
+          "text": "Copyright (c) 2018 OwnDroid - OpenSource Website. Want to contribute or use the files? Go <a href=\"https://github.com/OwnDroid/OwnDroid.github.io\" target=\"_blank\">HERE</a>",
           "_tags": [
             "Theme"
           ],
