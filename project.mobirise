@@ -30,7 +30,7 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112465163-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112465163-1');\r\n</script>\r\n",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 52,
+    "uniqCompNum": 58,
     "versionPublish": "4.5.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1262,7 +1262,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t.html\" data-toolbar=\"-mbrBtnMove\">ROOT</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t.html\" data-toolbar=\"-mbrBtnMove\">ROMS</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t.html\" data-toolbar=\"-mbrBtnMove\">T&amp;T</a>     ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t.html\" data-toolbar=\"-mbrBtnMove\">ROOT</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t.html\" data-toolbar=\"-mbrBtnMove\">ROMS</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t.html\" data-toolbar=\"-mbrBtnMove\">T&amp;T</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"oneplus5t-reviews.html\" data-toolbar=\"-mbrBtnMove\">REVIEWS</a>     ",
           "_tags": [
             "Theme"
           ],
@@ -1463,6 +1463,255 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-14"
+        }
+      ]
+    },
+    "oneplus5t-reviews.html": {
+      "settings": {
+        "meta_descr": "All OnePlus 5t Reviews",
+        "title": "OnePlus5t Reviews",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"page3.html\">Devices</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"Contact.html\">Contact</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5e97f6!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">OwnDroid</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1g"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/oneplus-5t-rendu-1-2000x1020.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.8"
+          },
+          "title": "OnePlus 5t Revies",
+          "text": "<p>All Reviews we could find!</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1j"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": true,
+            "rowСount": "10",
+            "colCount": "5",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search by website or language:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Title</th><th>By</th><th>From</th><th>Language</th><th>Link</th></tr></thead><tbody><tr><td>Voor wie groter altijd beter vindt.</td><td>Wout Funnekotter</td><td>tweakers.net</td><td>Dutch</td><td><a href=\"https://tweakers.net/reviews/5841/oneplus-5t-voor-wie-groter-altijd-beter-vindt.html\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>Groter vlaggenschip is een kleine verbetering</td><td>&nbsp;Wouter Nijsen</td><td>androidplanet.nl</td><td>Dutch</td><td><a href=\"https://www.androidplanet.nl/reviews/oneplus-5t-review/\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>Topper ondanks gebreken</td><td>Dominick Viëtor</td><td>allaboutphones.nl</td><td>Dutch</td><td><a href=\"https://www.allaboutphones.nl/reviews/oneplus-5t-review-waardige-upgrade/\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>Verbetering van een toch al goed toestel</td><td>Dim Vleugel</td><td>androidworld.nl</td><td>Dutch</td><td><a href=\"https://androidworld.nl/review/oneplus-5t/\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>Beste Android-smartphone van 2017</td><td>Tonie van Ringelestijn</td><td>bright.nl</td><td>Dutch</td><td><a href=\"https://www.bright.nl/eerste-indruk/review-oneplus-5t-beste-android-smartphone-van-2017\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>Premium smartphone voor een midrange prijs</td><td>Wesley Akkerman</td><td>tabletsmagazine.nl</td><td>Dutch</td><td><a href=\"https://www.tabletsmagazine.nl/2017/12/review-oneplus-5t/\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>What is the OnePlus 5T?</td><td>Max Parker</td><td>trustedreviews.com</td><td>English</td><td><a href=\"http://www.trustedreviews.com/reviews/oneplus-5t\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>The flagship killer returns in style</td><td>John McCann</td><td>techradar.com</td><td>English</td><td><a href=\"http://www.techradar.com/reviews/oneplus-5t-review\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>You cannot afford to ignore the fast, gorgeous, $500 OnePlus 5T</td><td>Andy Boxall</td><td>digitaltrends.com</td><td>English</td><td><a href=\"https://www.digitaltrends.com/cell-phone-reviews/oneplus-5t-review/\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr><tr><td>Say Hello to the Phone Bargain of the Year</td><td>&nbsp;Adam Ismail</td><td>tomsguide.com</td><td>English</td><td><a href=\"https://www.tomsguide.com/us/oneplus-5t,review-4888.html\" target=\"_blank\" class=\"text-primary\">GO</a></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_anchor": "extTable1-1k"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Found another or got a review of your own?",
+          "meta": "Let us know trough <a href=\"Contact.html\" class=\"text-primary\">HERE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1l"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-blue-128x92.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "android",
+              "family": "socicon",
+              "link": "",
+              "size": 0,
+              "color": "#5e97f6"
+            }
+          },
+          "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
+          "text2": "<strong>Quick Links</strong><br><br>",
+          "text3": "<strong>.</strong><br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ababab"
+            }
+          },
+          "_anchor": "contacts1-1h"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 OwnDroid - OpenSource Website. Want to contribute or use the files? Go <a href=\"https://github.com/OwnDroid/OwnDroid.github.io\" target=\"_blank\">HERE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1i"
         }
       ]
     }
