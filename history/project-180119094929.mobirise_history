@@ -38,7 +38,10 @@
     "robotsSwitcher": "on",
     "siteUrl": "https://owndroid.github.io",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "github",
+    "gitHubName": "OwnDroid",
+    "gitHubPath": ""
   },
   "pages": {
     "index.html": {
