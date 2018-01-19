@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OwnROM",
-    "currentPage": "what-is-a-custom-revocery-android.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -31,7 +31,7 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "versionFirst": "3.12.1",
     "uniqCompNum": 110,
-    "versionPublish": "4.5.4",
+    "versionPublish": "4.6.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",

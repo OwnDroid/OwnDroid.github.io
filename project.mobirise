@@ -31,21 +31,14 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "versionFirst": "3.12.1",
     "uniqCompNum": 110,
-<<<<<<< HEAD
     "versionPublish": "4.6.1",
-=======
-    "versionPublish": "4.5.4",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://owndroid.github.io",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on",
-    "publishType": "github",
-    "gitHubName": "OwnDroid",
-    "gitHubPath": ""
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -318,7 +311,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-          "text2": "<strong>Quick Links</strong><br>-",
+          "text2": "<strong>Quick Links</strong><br><br>",
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -575,11 +568,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -882,7 +871,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-          "text2": "<strong>Quick Links</strong><br>-",
+          "text2": "<strong>Quick Links</strong><br><br>",
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -1141,11 +1130,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -1577,11 +1562,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -1830,11 +1811,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -2092,11 +2069,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -2592,11 +2565,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -2828,11 +2797,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
@@ -3294,11 +3259,7 @@
             }
           },
           "text1": "<font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Partners</b></span></font><font color=\"#ababab\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b><br></b></span></font><br>No partners yet!<br><br>Contact us if you have&nbsp;<br>intresd to becom one",
-<<<<<<< HEAD
-          "text2": "<strong>Quick Links</strong><br>-",
-=======
           "text2": "<strong>Quick Links</strong><br><br>",
->>>>>>> 1e566e3593281ef7faad53c636439a6d3c1b90c0
           "text3": "<strong>.</strong><br><br>",
           "_tags": [
             "Theme"
