@@ -343,8 +343,7 @@ function wheel(event) {
         if (isFrame && isChrome)  {
             // change target to iframe element itself for the parent frame
             Object.defineProperty(event, "target", {value: window.frameElement});
-            event = new event.constructor(event.type, event); // redefine event because already dispatched
-            return parent.dispatchEvent(event);
+            return parent.wheel(event);
         }
         return true;
     }

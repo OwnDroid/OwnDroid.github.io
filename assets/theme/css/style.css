@@ -782,21 +782,20 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   z-index: 0 !important; }
 
 .mbr-table {
-  position: relative;
   display: table;
   width: 100%; }
 
 .mbr-table-full {
+  height: 100%;
   position: relative;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .mbr-table-cell {
-  position: relative;
   display: table-cell;
   float: none;
-  padding-top: 0;
   padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
   vertical-align: middle; }
 
 .mbr-table-md-up {
